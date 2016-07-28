@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sammy.Reader.postView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+
+        android:id="@+id/postTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+        android:paddingRight="@dimen/feed_item_status_pad_left_right"
+        android:paddingTop="@dimen/feed_item_status_pad_top"
+
+        android:text="This is a good Post, I hope it will have 2 lines. Please give me 2 lines"
+        />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/C:/Users/Fafa/Downloads/Android-Multicategory-RSS-Reader-master1/app/src/main/res/layout/activity_post_view.xml -->
